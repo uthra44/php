@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Enter Your Details</h2>
+        <form action="php/server.php" method="POST" id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" name="number" required>
+        
+            <label for="career">Career:</label>
+            <input type="text" id="career" name="career" required>
+        
+            <button type="submit">Submit</button>
+        </form>        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
